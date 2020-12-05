@@ -17,7 +17,7 @@ const globalStyle = createGlobalStyle`
     margin: 0;
   }
   #root {
-    background: url(${CovidImg});
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${CovidImg});
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -31,6 +31,7 @@ const globalStyle = createGlobalStyle`
   }
   .cursor {
     cursor: pointer;
+    margin: 5px 0 -10px 10px;
   }
 `;
 

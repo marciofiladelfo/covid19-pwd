@@ -29,7 +29,7 @@ function Panel({ updatedAt, onChange, data, country, getCovidData }) {
     navigator.share({
       title: `Dados do Covid19 - ${country}`,
       text: textCovid19,
-      url: "https://covid19pwa.netlify.app/",
+      url: "https://covid19-pwd.vercel.app/",
     });
   };
 
